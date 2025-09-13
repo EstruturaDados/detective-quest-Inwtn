@@ -6,7 +6,7 @@
 #define TAM_HASH 10
 #define MAX_NOME 50
 
-// Nó da árvore binária de busca para pistas
+// Nó da árvore binária de busca para pistas.
 typedef struct NoPista {
     char pista[MAX_NOME];
     struct NoPista *esq;
